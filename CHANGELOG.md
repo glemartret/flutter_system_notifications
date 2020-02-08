@@ -1,3 +1,7 @@
+## 0.0.1-dev.2
+
+* Fixed Dart file format and plugin description
+
 ## 0.0.1-dev.1
 
 * Added Documentation for 0.0.1-dev
