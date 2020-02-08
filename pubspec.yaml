@@ -1,6 +1,6 @@
 name: system_notifications
 description: WIP - A Flutter System Notification Manager
-version: 0.0.1-dev
+version: 0.0.1-dev.1
 homepage: https://github.com/sNohz/flutter_system_notifications
 repository: https://github.com/sNohz/flutter_system_notifications
 issue_tracker: https://github.com/sNohz/flutter_system_notifications/issues
