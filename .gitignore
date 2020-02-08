@@ -4,12 +4,7 @@
 .dart_tool/
 .packages
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
-
-# Directory created by dartdoc
-# If you don't generate documentation locally you can remove this line.
-doc/api/
 
 # Avoid committing generated Javascript files:
 *.dart.js
@@ -19,3 +14,12 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+# Editor
+.idea/
+
+# Tests
+test/
+
+# Gradle files
+local.properties

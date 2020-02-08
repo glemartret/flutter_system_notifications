@@ -1,0 +1,22 @@
+name: system_notifications
+description: WIP - A Flutter System Notification Manager
+version: 0.0.1-dev
+homepage: https://github.com/sNohz/flutter_system_notifications
+repository: https://github.com/sNohz/flutter_system_notifications
+issue_tracker: https://github.com/sNohz/flutter_system_notifications/issues
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.lemartret.system_notifications
+    pluginClass: SystemNotificationsPlugin
