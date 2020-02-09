@@ -11,12 +11,11 @@ class SystemNotifications {
   /// Displays a System Notification with an [id], a [title], a [content] and a [dismissible]
   static Future<void> makeNotification(
       {id: int, title: String, content: String, dismissible: bool}) async {
-    await _channel.invokeMethod('makeNotification', {
+    return await _channel.invokeMethod('makeNotification', {
       "id": id,
       "title": title,
       "content": content,
       "dismissible": dismissible,
     });
-    return;
   }
 }
